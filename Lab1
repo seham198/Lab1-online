@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    
+    double I,w,area,tileـsqft,num_of_tiles;
+    cout<<" Enter the length of the floor(in feet):";
+    cin>>I;
+    cout<<" Enter the width of the floor(in feet):";
+    cin>>w;
+    area=I*w;
+    tileـsqft=(6.0/12)*(6.0/12);
+    num_of_tiles=area/tileـsqft;
+    
+    cout<<" The number of tiles needed to title the floor:"<<num_of_tiles;
+    
+  return 0;
+}
