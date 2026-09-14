@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   double baseSalary,totalSales,commisionRate,pay;
+   
+   cout<<" Enter the  Base Salary:";
+   cin>>baseSalary;
+   cout<<" Enter the totalSales:";
+   cin>>totalSales;
+   cout<<" Enter the commisionRate:";
+   cin>>commisionRate;
+   pay=baseSalary+(totalSales+commisionRate);
+   cout<<" The Total pay is:"<<pay;
+   
+   return 0;
+}
